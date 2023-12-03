@@ -105,7 +105,8 @@ const Home = () => {
           The trainer is good. Great presentation by him and explained every
           topic very well also helped us if we faced any issue during lab and
           resolve every query. Srikanth is very good in presentation and has
-          knowledge of the subject. Very informative while discussing with him.
+          knowledge of the subject. Very informative while discussing with
+          him11.
         </p>
       </div>
     </div>
