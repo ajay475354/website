@@ -1,0 +1,118 @@
+/*...................................*/
+.nav_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: aquamarine;
+  padding: 10px;
+  /*...................*/
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%);
+}
+.logo_tasks_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.ul_list_container {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signin_signup_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+/*..........................containers.........*/
+
+.logo {
+  width: 200px;
+  margin-right: 20px;
+}
+.link_items {
+  font-family: "Roboto";
+  font-size: 20px;
+  color: rgb(34, 31, 31);
+  font-weight: 600;
+  padding: 10px 10px;
+}
+.link_items:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  background-color: aqua;
+}
+.sig_in {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(34, 31, 31);
+  margin-right: 10px;
+  cursor: pointer;
+}
+.sig_in:hover {
+  text-decoration: underline;
+}
+.sign_up {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(34, 31, 31);
+  border: none;
+  background-color: yellow;
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+.icon {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  padding: 0;
+}
+.mobile_view {
+  display: none;
+}
+
+/*.........................mobile view......*/
+@media screen and (max-width: 850px) {
+  .ul_list_container {
+    display: flex;
+    flex-direction: column;
+    background-color: #f4efef;
+    box-shadow: 0 8px 32px 0 rgb(hwb(0 85% 10%));
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: -110%;
+    align-items: stretch;
+    padding: 80px 0 30px 0;
+    margin: 0;
+    z-index: -1;
+    transition: all 0.7s ease-in-out;
+  }
+  .ul_list_container.active {
+    left: 0%;
+  }
+  .link_items {
+    display: block;
+    widows: 100%;
+    padding: 0.5rem 10px;
+    z-index: 99;
+    backdrop-filter: blur(20px);
+  }
+
+  .mobile_view {
+    display: block;
+  }
+  .logo {
+    width: 100px;
+  }
+}

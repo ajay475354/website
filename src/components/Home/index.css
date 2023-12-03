@@ -1,0 +1,149 @@
+.bg_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding-top: 170px;
+  width: 100%;
+}
+
+.home_details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.home_content_container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-left: 100px;
+  justify-content: flex-start;
+}
+.home_image {
+  height: 400px;
+  width: 200px;
+  position: absolute;
+}
+.bg_cards {
+  width: 400px;
+  height: 140px;
+  background-color: blue;
+  border-bottom-left-radius: 200px;
+  border-top-right-radius: 200px;
+}
+.bg_cards_1 {
+  width: 400px;
+  height: 140px;
+  background-color: red;
+  border-bottom-left-radius: 200px;
+  border-top-right-radius: 200px;
+  margin-top: -30px;
+}
+.image_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+/*....*/
+.offer_container {
+  margin-top: 100px;
+  width: 500px;
+  height: 90px;
+  background: rgb(168, 84, 224);
+  background: linear-gradient(
+    90deg,
+    rgba(168, 84, 224, 1) 30%,
+    rgba(253, 29, 29, 1) 63%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  border-top-left-radius: 120px;
+  border-bottom-right-radius: 120px;
+}
+
+.items_view_container {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 70px;
+}
+.customer_feedback_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin-top: 50px;
+}
+.feed_header {
+  margin-bottom: 30px;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 400;
+}
+.feed_description {
+  font-family: "Roboto";
+  font-size: 18px;
+  color: black;
+  margin-bottom: 50px;
+}
+/*....*/
+@media screen and (max-width: 850px) {
+  .bg_container {
+    flex-direction: column;
+    padding: 10px;
+    padding-top: 170px;
+  }
+  .home_details {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .home_content_container {
+    width: 70%;
+  }
+  .image_container {
+    margin-top: 100px;
+  }
+  .home_image {
+    height: 300px;
+    width: 150px;
+    position: absolute;
+  }
+  .bg_cards {
+    width: 300px;
+    height: 100px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 150px;
+  }
+  .bg_cards_1 {
+    width: 300px;
+    height: 100px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 150px;
+  }
+  .offer_container {
+    width: 300px;
+    height: 70px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+  }
+  .items_view_container {
+    width: 100%;
+  }
+}
