@@ -65,17 +65,18 @@ const Home = () => {
       <div className="home_details">
         {/*...........content coontainer....................*/}
         <div className="home_content_container">
-          <h1>Learnedze</h1>
-          <h1>Networks!</h1>
-          <p>
-            <span>Learnedze</span>
-            <span>Networks</span>is an ed-tech company based out of India.
-            Learnedze provides <span>on-demand labs</span> as a service to
+          <h1 className="home_header_style">Learnedze</h1>
+          <h1 className="home_header_style_1">Networks!</h1>
+          <p className="home_header_descr_style">
+            <span className="span_title_style">Learnedze </span>
+            <span className="span_title_style_1">Networks</span> is an ed-tech
+            company based out of India. Learnedze provides{" "}
+            <span className="span_style">on-demand labs</span> as a service to
             organizations in the networking industry. Focusing on
-            <span>
+            <span className="span_style">
               technology learning labs, sandbox labs, proof of concept labs &
               demos, training & consulting
-            </span>{" "}
+            </span>
             on networking technologies.
           </p>
         </div>

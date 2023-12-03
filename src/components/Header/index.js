@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useState } from "react";
 import "./index.css";
 
@@ -26,11 +27,31 @@ const Header = () => {
             isClickedMenu ? "ul_list_container active" : "ul_list_container"
           }
         >
-          <li className="link_items">Home</li>
-          <li className="link_items">About</li>
-          <li className="link_items">Courses</li>
-          <li className="link_items">Trainers</li>
-          <li className="link_items">Corporates</li>
+          <li className="link_items">
+            <Link to="/" className="links">
+              Home
+            </Link>
+          </li>
+          <li className="link_items">
+            <Link to="/about" className="links">
+              About
+            </Link>
+          </li>
+          <li className="link_items">
+            <Link to="/courses" className="links">
+              Courses
+            </Link>
+          </li>
+          <li className="link_items">
+            <Link to="/trainers" className="links">
+              Trainers
+            </Link>
+          </li>
+          <li className="link_items">
+            <Link to="/corporates" className="links">
+              Corporates
+            </Link>
+          </li>
         </ul>
       </div>
 

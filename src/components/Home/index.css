@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   background-color: white;
-  padding-top: 170px;
+  padding-top: 130px;
   width: 100%;
 }
 
@@ -14,6 +14,34 @@
   justify-content: space-around;
   align-items: center;
   width: 100%;
+}
+.home_header_style {
+  font-family: "Roboto";
+  font-size: 60px;
+  font-weight: 700;
+  color: blue;
+}
+.home_header_style_1 {
+  font-family: "Roboto";
+  font-size: 60px;
+  font-weight: 700;
+  color: red;
+}
+.home_header_descr_style {
+  font-family: "Roboto";
+  font-size: 22px;
+  color: rgb(33, 31, 31);
+}
+.span_title_style {
+  color: blue;
+  font-weight: bold;
+}
+.span_title_style_1 {
+  color: red;
+  font-weight: bold;
+}
+.span_style {
+  font-weight: bold;
 }
 
 .home_content_container {
@@ -55,7 +83,8 @@
 .offer_container {
   margin-top: 100px;
   width: 500px;
-  height: 90px;
+  height: 40px;
+  padding: 30px;
   background: rgb(168, 84, 224);
   background: linear-gradient(
     90deg,
@@ -106,7 +135,7 @@
   .bg_container {
     flex-direction: column;
     padding: 10px;
-    padding-top: 170px;
+    padding-top: 120px;
   }
   .home_details {
     flex-direction: column;
