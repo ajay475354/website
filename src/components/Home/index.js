@@ -10,52 +10,57 @@ const data = [
   {
     id: 1,
     imageUrl: "https://stage.learnedze.com/peers.svg",
-    text: "Virtual Workshop",
+    text: "Training Pods",
   },
   {
     id: 2,
     imageUrl: "https://stage.learnedze.com/desktop.svg",
-    text: "Virtual Workshop",
+    text: "PoC Labs",
   },
   {
     id: 3,
     imageUrl: "https://stage.learnedze.com/classroom.svg",
-    text: "Virtual Workshop",
+    text: "Classroom Workshops",
   },
   {
     id: 4,
     imageUrl: "https://stage.learnedze.com/chemical.svg",
-    text: "Virtual Workshop",
+    text: "Advanced Learnings Labs",
   },
   {
     id: 5,
     imageUrl: "https://stage.learnedze.com/consulting.svg",
-    text: "Virtual Workshop",
+    text: "Consulting",
   },
   {
     id: 6,
     imageUrl: "https://stage.learnedze.com/videoOnDemand.svg",
-    text: "Virtual Workshop",
+    text: "Video On Demand",
   },
   {
     id: 7,
     imageUrl: "https://stage.learnedze.com/time.svg",
-    text: "Virtual Workshop",
+    text: "Foundational Learning Labs",
   },
   {
     id: 8,
     imageUrl: "https://stage.learnedze.com/chemicalTwo.svg",
-    text: "Virtual Workshop",
+    text: "Engineering Test Beds",
   },
   {
     id: 9,
     imageUrl: "https://stage.learnedze.com/flowchart.svg",
-    text: "Virtual Workshop",
+    text: "Design/PoC/PoV Demos",
   },
   {
     id: 10,
     imageUrl: "https://stage.learnedze.com/database.svg",
-    text: "Virtual Workshop",
+    text: "Virtual Sandboxes",
+  },
+  {
+    id: 11,
+    imageUrl: "https://stage.learnedze.com/flowchart.svg",
+    text: "Implementation",
   },
 ];
 
