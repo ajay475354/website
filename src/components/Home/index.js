@@ -294,6 +294,23 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      {/*................contact....................*/}
+      <div className="contact_bg_container">
+        <div className="contact_bg_1_container">
+          <div className="contact_bg_2_container">
+            <div className="contact_bg_3_container">
+              <h1 className="contact_head">Ready to Get Started?</h1>
+              <p className="contact_description">
+                It’s fast, scalable and easy to use
+              </p>
+              <button className="contact_details_button">
+                Request for Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
