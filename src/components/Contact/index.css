@@ -1,0 +1,61 @@
+.bg_contact_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 90px;
+  padding-bottom: 20px;
+  background-color: aliceblue;
+}
+.contact_form_head {
+  font-family: sans-serif;
+  font-size: 28px;
+}
+.form_container_contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgb(190, 210, 227);
+  padding: 20px 20px 20px 20px;
+}
+.label_ {
+  font-family: sans-serif;
+  font-size: 14px;
+  color: rgb(33, 31, 31);
+  font-weight: bold;
+  margin-top: 20px;
+}
+.span_ {
+  color: red;
+  font-weight: bold;
+}
+.input_ {
+  width: 300px;
+  border: solid 2px rgb(66, 64, 64);
+  border-radius: 4px;
+  margin-top: 5px;
+  height: 30px;
+  padding: 5px;
+  font-family: sans-serif;
+}
+.teaxt_area {
+  margin-top: 20px;
+  border: solid 2px rgb(66, 64, 64);
+  border-radius: 4px;
+  height: 100px;
+  padding: 5px;
+  font-family: sans-serif;
+}
+.contact_button {
+  margin-top: 20px;
+  padding: 8px;
+  background-color: rgb(50, 50, 158);
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}

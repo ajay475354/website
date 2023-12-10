@@ -1,0 +1,21 @@
+.we_offer_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2e8f0;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  width: 250px;
+}
+.image_we_offer {
+  height: 60px;
+  width: 60px;
+}
+.we_offer_card_text {
+  font-family: sans-serif;
+  font-weight: 16px;
+  color: #000000;
+  margin-left: 5px;
+}

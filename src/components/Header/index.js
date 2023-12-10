@@ -16,12 +16,14 @@ const Header = () => {
       {/*logo and items container*/}
       <div className="logo_tasks_container">
         <img
-          src="https://stage.learnedze.com/logo.png"
+          src="https://learnedze.netlify.app/images/logo.png"
           alt="logo"
           className="logo"
         />
 
         {/*ul list container*/}
+      </div>
+      <div>
         <ul
           className={
             isClickedMenu ? "ul_list_container active" : "ul_list_container"
@@ -32,34 +34,32 @@ const Header = () => {
               Home
             </Link>
           </li>
-          <li className="link_items">
-            <Link to="/about" className="links">
-              About
-            </Link>
-          </li>
+
           <li className="link_items">
             <Link to="/courses" className="links">
               Courses
             </Link>
           </li>
-          <li className="link_items">
-            <Link to="/trainers" className="links">
-              Trainers
-            </Link>
-          </li>
+
           <li className="link_items">
             <Link to="/corporates" className="links">
               Corporates
             </Link>
           </li>
+          <li className="link_items">
+            <Link to="/about" className="links">
+              About
+            </Link>
+          </li>
         </ul>
       </div>
 
-      {/*signin and signup container*/}
+      {/*signin and signup container
       <div className="signin_signup_container">
         <p className="sig_in">Signin</p>
         <button className="sign_up">Signup</button>
       </div>
+      */}
 
       {/*............mobile icons.........*/}
       <div onClick={menuIconClicked} className="mobile_view">

@@ -1,3 +1,4 @@
+import { useHistory } from "react-router-dom";
 import "./index.css";
 
 import {
@@ -9,7 +10,10 @@ import {
   FaSuperpowers,
 } from "react-icons/fa";
 
+/*..................move to contact page.........*/
+
 const Home = () => {
+  const history = useHistory();
   return (
     <div className="home_bg_container">
       <div className="learn_now_container">
@@ -68,7 +72,9 @@ const Home = () => {
       </div>
       <div className="reducer_container">
         <div className="all_details_reducer_container">
-          <h1>Reduce cost & Increase Profitability</h1>
+          <h1 className="reduce_header">
+            Reduce cost & Increase Profitability
+          </h1>
           <div className="hr_container">
             <hr className="reduce_hr_1" />
             <hr className="reduce_hr_2" />
@@ -141,7 +147,7 @@ const Home = () => {
 
       <div className="technologies_container">
         <div className="all_details_technology_container">
-          <h1>Reduce cost & Increase Profitability</h1>
+          <h1 className="technologies_header">Technology Learning Labs</h1>
           <div className="hr_container">
             <hr className="reduce_hr_1" />
             <hr className="reduce_hr_2" />
@@ -212,7 +218,7 @@ const Home = () => {
       {/*...............sandbox labs...............*/}
       <div className="labs_container">
         <div className="all_details_lab_container">
-          <h1>PoC and Sandbox Labs</h1>
+          <h1 className="sandbox_lab_header">PoC and Sandbox Labs</h1>
           <div className="hr_container">
             <hr className="reduce_hr_1" />
             <hr className="reduce_hr_2" />
@@ -223,8 +229,8 @@ const Home = () => {
               <FaSuperpowers className="super_icon" />
             </div>
             <div>
-              <h2>Pre-built topologies</h2>
-              <p>
+              <h2 className="lab_another_head">Pre-built topologies</h2>
+              <p className="lab_another_descr">
                 Integrate with Syslog servers and other monitoring/management
                 tools
               </p>
@@ -235,8 +241,10 @@ const Home = () => {
               <FaSuperpowers className="super_icon" />
             </div>
             <div>
-              <h2>Customized topologies</h2>
-              <p>Integrate with Public cloud and On-prem environments</p>
+              <h2 className="lab_another_head">Customized topologies</h2>
+              <p className="lab_another_descr">
+                Integrate with Public cloud and On-prem environments
+              </p>
             </div>
           </div>
         </div>
@@ -304,7 +312,10 @@ const Home = () => {
               <p className="contact_description">
                 It’s fast, scalable and easy to use
               </p>
-              <button className="contact_details_button">
+              <button
+                className="contact_details_button"
+                onClick={() => history.push("/contact")}
+              >
                 Request for Demo
               </button>
             </div>
