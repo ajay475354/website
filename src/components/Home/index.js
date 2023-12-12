@@ -28,7 +28,14 @@ const Home = () => {
             It opens up new opportunities for career growth and increases your
             employability.
           </p>
-          <button className="button_learn">Learn Now</button>
+          <button
+            className="button_learn"
+            onClick={() => {
+              history.push("/courses");
+            }}
+          >
+            Learn Now
+          </button>
         </div>
       </div>
 
@@ -319,6 +326,25 @@ const Home = () => {
                 Request for Demo
               </button>
             </div>
+          </div>
+        </div>
+      </div>
+
+      {/*.................contact feed...............*/}
+      <div className="customer_feedback_bg_container">
+        <div className="feedback_container">
+          <div className="offer_head_container">
+            <h1 className="we_offer_head">What We Offer ?</h1>
+          </div>
+          <div className="details_feedback_container">
+            <h1 className="feedback_head">CGI Information Systems</h1>
+            <p className="feedback_para">
+              The trainer is good. Great presentation by him and explained every
+              topic very well also helped us if we faced any issue during lab
+              and resolve every query. Srikanth is very good in presentation and
+              has knowledge of the subject. Very informative while discussing
+              with him.
+            </p>
           </div>
         </div>
       </div>

@@ -5,6 +5,7 @@ import About from "./components/About/index";
 import Corporates from "./components/Corporates/index";
 import Contact from "./components/Contact/index";
 import Courses from "./components/Courses/index";
+import CiscoSdWan from "./components/CiscoSdWan";
 import "./App.css";
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
         <Route exact path="/corporates" component={Corporates} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/courses" component={Courses} />
+        <Route exact path="/ciscosdwan" component={CiscoSdWan} />
       </Switch>
     </BrowserRouter>
   );
