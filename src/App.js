@@ -8,6 +8,8 @@ import Courses from "./components/Courses/index";
 import CiscoSdWan from "./components/CiscoSdWan";
 import "./App.css";
 
+import Footer from "./components/Footer/index";
+
 const App = () => {
   return (
     <BrowserRouter>
@@ -20,6 +22,7 @@ const App = () => {
         <Route exact path="/courses" component={Courses} />
         <Route exact path="/ciscosdwan" component={CiscoSdWan} />
       </Switch>
+      <Footer />
     </BrowserRouter>
   );
 };

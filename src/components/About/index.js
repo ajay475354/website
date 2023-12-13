@@ -113,7 +113,7 @@ const About = () => {
       <div className="customer_feedback_bg_container">
         <div className="feedback_container">
           <div className="offer_head_container">
-            <h1 className="we_offer_head">What We Offer ?</h1>
+            <h1 className="we_offer_head">Customer Feedback</h1>
           </div>
           <div className="details_feedback_container">
             <h1 className="feedback_head">CGI Information Systems</h1>

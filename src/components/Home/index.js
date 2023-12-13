@@ -54,15 +54,15 @@ const Home = () => {
           </div>
           <div className="card_container">
             <FaFlask className="service_icon" />
-            <p className="service_title">Technology Learning Labs</p>
+            <p className="service_title">Proof of concept Labs & Demos</p>
           </div>
           <div className="card_container">
             <FaDatabase className="service_icon" />
-            <p className="service_title">Technology Learning Labs</p>
+            <p className="service_title">Sandbox Labs</p>
           </div>
           <div className="card_container">
             <FaRegUser className="service_icon" />
-            <p className="service_title">Technology Learning Labs</p>
+            <p className="service_title">Training & Consulting</p>
           </div>
         </div>
       </div>
@@ -334,7 +334,7 @@ const Home = () => {
       <div className="customer_feedback_bg_container">
         <div className="feedback_container">
           <div className="offer_head_container">
-            <h1 className="we_offer_head">What We Offer ?</h1>
+            <h1 className="we_offer_head">Customer Feedback</h1>
           </div>
           <div className="details_feedback_container">
             <h1 className="feedback_head">CGI Information Systems</h1>

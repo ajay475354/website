@@ -118,11 +118,9 @@ const CiscoSdWan = () => {
       </div>
       {/*..................shedule_cisco_container....*/}
       <div className="shedule_cisco_container">
-        <h1 className="shedule_cisco_head">
-          Schedules for the forthcoming Training
-        </h1>
+        <h1 className="shedule_cisco_head">Schedules for the Training</h1>
         <p className="shedule_cisco_description">
-          Dec 3rd-7th, Timings-5pm-9 pm Indian Standard time.
+          Dec 10th-14th, Timings-5pm-9 pm Indian Standard time.
         </p>
         <button
           className="shedule_cisco_button"
@@ -190,14 +188,6 @@ const CiscoSdWan = () => {
             d="M0,96L48,85.3C96,75,192,53,288,48C384,43,480,53,576,74.7C672,96,768,128,864,133.3C960,139,1056,117,1152,90.7C1248,64,1344,32,1392,16L1440,0L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
           ></path>
         </svg>
-      </div>
-      {/*..................contact...........*/}
-      <div className="contact_cisco_details">
-        <p className="contact_cisco_description">
-          For more details please contact-Info@learnedze.com or
-          Sudeepta@learnedze.com You can also reach out to us at 9873343507 or
-          8971752675.
-        </p>
       </div>
     </div>
   );

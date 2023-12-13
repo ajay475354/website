@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   padding: 20px;
 }
 /*...............................learn now.................*/
@@ -53,6 +53,10 @@
   border: none;
   cursor: pointer;
   margin-bottom: 100px;
+}
+.button_learn:hover {
+  background-color: greenyellow;
+  color: black;
 }
 
 @media screen and (max-width: 768px) {
@@ -488,13 +492,17 @@
 }
 .contact_details_button {
   padding: 10px;
-  border-radius: 16px 18px 16px 18px;
+  border-radius: 10px 10px 10px 10px;
   border: none;
   color: #03abed;
   font-size: 15px;
   font-weight: bold;
   cursor: pointer;
   font-family: "Red Hat Display", sans-serif;
+}
+.contact_details_button:hover {
+  background-color: green;
+  color: black;
 }
 @media screen and (max-width: 768px) {
   .contact_bg_container {

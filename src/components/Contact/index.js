@@ -1,15 +1,35 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 import "./index.css";
 
 const Contact = () => {
   const formdata = useRef();
+  const [submitStatus, setSubmit] = useState("");
 
   const sendingMail = (event) => {
     event.preventDefault();
+    emailjs
+      .sendForm(
+        "service_bgyukk1",
+        "template_syfxf2l",
+        formdata.current,
+        "Idq-5jBVTs6eChpa_"
+      )
+      .then(
+        (result) => {
+          setSubmit("successfully Recieved..");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    event.target.reset();
   };
+
   return (
     <div className="bg_contact_container">
       <h1 className="contact_form_head">Get in Touch with us</h1>
+      <p className="submited_status">{submitStatus}</p>
       <form
         ref={formdata}
         className="form_container_contact"

@@ -29,6 +29,16 @@
   color: red;
   font-weight: bold;
 }
+.submited_status {
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #237228;
+  font-size: 18px;
+  font-family: sans-serif;
+  margin-top: 10px;
+}
 .input_ {
   width: 300px;
   border: solid 2px rgb(66, 64, 64);

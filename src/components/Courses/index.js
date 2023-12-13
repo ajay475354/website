@@ -8,13 +8,13 @@ const Courses = () => {
   return (
     <div className="bg_container_courses">
       <h1 className="courses_header">Trending Courses</h1>
-      <div
-        className="courses_container"
-        onClick={() => {
-          history.push("/ciscosdwan");
-        }}
-      >
-        <div className="cisco_course_container">
+      <div className="courses_container">
+        <div
+          className="cisco_course_container"
+          onClick={() => {
+            history.push("/ciscosdwan");
+          }}
+        >
           <img
             src="https://res-console.cloudinary.com/dbmxh23dy/thumbnails/v1/image/upload/v1702290322/U0RfV0FOX2RxdXFuYw==/grid_landscape"
             alt="cisco_image"
@@ -54,7 +54,7 @@ const Courses = () => {
           className="enroll_image"
         />
         <div className="enroll_details_container">
-          <h1 className="enroll_head">Enroll to our couses now!</h1>
+          <h1 className="enroll_head">Enroll in our couses now!</h1>
           <button
             type="button"
             className="enroll_button"
