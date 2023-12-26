@@ -8,6 +8,10 @@ import {
 import { BsEnvelopeFill, BsFillTelephoneFill } from "react-icons/bs";
 import "./index.css";
 
+const linkdinUrl = "https://www.linkedin.com/in/learnedze-networks-45a8861a6/";
+const fbLink = "https://www.facebook.com/profile.php?id=100039627850282";
+const twitter = "https://twitter.com/home";
+
 const Footer = () => {
   return (
     <footer className="footer_bg_container">
@@ -46,7 +50,7 @@ const Footer = () => {
         <Link to="/CiscoSdWan" className="footer_course_link">
           Cisco SD-WAN
         </Link>
-        <Link className="footer_course_link">
+        <Link to="/ccna" className="footer_course_link">
           Cisco Certified Network Associate(CCNA)
         </Link>
       </div>
@@ -63,9 +67,30 @@ const Footer = () => {
           <p className="footer_contact_info">91+ 9873343507</p>
         </div>
         <div className="social_web_site_icon_containers">
-          <FaLinkedin className="social_icons" />
-          <FaTwitterSquare className="social_icons" />
-          <FaFacebook className="social_icons" />
+          <a
+            href={linkdinUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="social_icons_style"
+          >
+            <FaLinkedin className="social_icons" />
+          </a>
+          <a
+            href={twitter}
+            target="_blank"
+            rel="noreferrer"
+            className="social_icons_style"
+          >
+            <FaTwitterSquare className="social_icons" />
+          </a>
+          <a
+            href={fbLink}
+            target="_blank"
+            rel="noreferrer"
+            className="social_icons_style"
+          >
+            <FaFacebook className="social_icons" />
+          </a>
         </div>
       </div>
     </footer>

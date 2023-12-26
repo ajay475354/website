@@ -143,3 +143,7 @@
     margin-bottom: 15px;
   }
 }
+.social_icons_style {
+  text-decoration: none;
+  color: black;
+}

@@ -89,8 +89,8 @@ const About = () => {
           <div className="bg_image_2"></div>
           <img
             src="https://stage.learnedze.com/3d-business-man-and-woman-working-with-laptop.png"
-            alt="about_images"
-            className="about_images"
+            alt="about_image"
+            className="about_image"
           />
         </div>
       </div>

@@ -1,0 +1,19 @@
+.card_container_about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  margin: 15px;
+  text-align: center;
+}
+.about_icon {
+  height: 50px;
+  width: 50px;
+}
+.about_title {
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #1a1b1e;
+  margin-top: 10px;
+}

@@ -13,6 +13,11 @@
     flex-direction: column;
   }
 }
+.card_desc_offer {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #1a1b1e;
+}
 
 .item_image {
   height: 50px;

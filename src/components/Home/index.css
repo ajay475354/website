@@ -8,8 +8,9 @@
 /*...............................learn now.................*/
 .learn_now_container {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
   padding-top: 100px;
   width: 100%;
   background: linear-gradient(
@@ -29,24 +30,25 @@
 }
 
 .learn_now_heading {
-  font-size: 2.5rem;
+  font-size: 40px;
   color: #ffff;
   font-family: sans-serif;
   font-weight: 600;
 }
 .learn_para {
-  font-size: 13px;
+  font-size: 14px;
   font-family: sans-serif;
   margin: 0px 0px 20.8px;
   color: #ffff;
   line-height: 20px;
   margin-top: 20px;
+  text-align: justify;
 }
 .button_learn {
   font-size: 18px;
   font-family: sans-serif;
   background-color: #ffcd57;
-  color: #1e293b;
+  color: #000000;
   padding: 10px 10px;
   width: 150px;
   border-radius: 50px;
@@ -64,6 +66,11 @@
     width: 70%;
     margin-left: 60px;
   }
+  .learn_now_container {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
   .learn_now_heading {
     font-size: 30px;
     margin-bottom: 20px;
@@ -73,6 +80,13 @@
     padding: 10px 10px;
     width: 150px;
   }
+}
+/*..............video player........*/
+.video_player_container {
+  width: 300px;
+  height: 180px;
+  border-radius: 10px;
+  margin: 10px;
 }
 /*................service......*/
 .service_container {
@@ -85,7 +99,7 @@
 .service_head {
   font-size: 30px;
   font-weight: 600;
-  color: #171347;
+  color: #000000;
   font-family: sans-serif;
   margin-top: 50px;
   margin-bottom: 10px;
@@ -130,9 +144,8 @@
 .service_title {
   font-family: sans-serif;
   margin: 0px 0px 20px;
-  color: #171347;
+  color: #1a1b1e;
   font-size: 16px;
-  font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {
@@ -173,6 +186,7 @@
   font-family: sans-serif;
   font-size: 25px;
   font-weight: 600;
+  color: #000000;
 }
 .hr_container {
   display: flex;
@@ -288,6 +302,7 @@
   font-family: sans-serif;
   font-weight: 600;
   font-size: 25px;
+  color: #000000;
 }
 .image_technology {
   height: 40vh;
@@ -333,6 +348,7 @@
   font-family: sans-serif;
   font-weight: 600;
   font-size: 25px;
+  color: #000000;
 }
 .card_lab_container {
   display: flex;
@@ -359,14 +375,14 @@
 .lab_another_head {
   font-family: sans-serif;
   font-size: 18px;
-  font-weight: 500;
-  color: #1a1b1e;
+  font-weight: bold;
+  color: #000000;
   margin-bottom: 10px;
 }
 .lab_another_descr {
   font-family: sans-serif;
   font-size: 16px;
-  color: #454545;
+  color: #1a1b1e;
 }
 .labs_second_details_container {
   width: 50%;
@@ -400,8 +416,9 @@
 .detail_head {
   font-family: sans-serif;
   font-size: 16px;
-  color: #454545;
+  color: #000000;
   margin-bottom: 10px;
+  font-weight: bold;
 }
 .details_p {
   font-size: 16px;
@@ -476,33 +493,34 @@
   background-repeat: no-repeat;
 }
 .contact_head {
-  color: #fff;
+  color: #ffff;
   font-size: 40px;
-  font-weight: 900;
-  font-family: "Red Hat Display", sans-serif;
+  font-weight: 600;
+  font-family: sans-serif;
   margin-bottom: 20px;
 }
 .contact_description {
-  color: #fff;
-  font-size: 20px;
+  color: #ffff;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 1.4em;
-  font-family: "Red Hat Display", sans-serif;
+  line-height: 1.5;
+  font-family: sans-serif;
   margin-bottom: 10px;
 }
 .contact_details_button {
   padding: 10px;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 10px;
   border: none;
-  color: #03abed;
-  font-size: 15px;
+  color: black;
+  font-size: 14px;
   font-weight: bold;
   cursor: pointer;
   font-family: "Red Hat Display", sans-serif;
+  transition: 1s;
 }
 .contact_details_button:hover {
-  background-color: green;
-  color: black;
+  background-color: blue;
+  color: #ffff;
 }
 @media screen and (max-width: 768px) {
   .contact_bg_container {
@@ -512,4 +530,45 @@
   .contact_bg_1_container {
     width: 100%;
   }
+}
+/*..................customer_feedback_bg_container.........*/
+.customer_feedback_bg_container_home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
+.feedback_container_home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.customer_feedback_head_home {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #000000;
+}
+.details_feedback_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.feedback_head_home {
+  font-size: 18px;
+  color: #1a1b1e;
+  font-family: sans-serif;
+  margin-top: -10px;
+}
+.feedback_para_home {
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #1a1b1e;
+  text-align: justify;
+  margin-top: 5px;
+  line-height: 1.5;
 }

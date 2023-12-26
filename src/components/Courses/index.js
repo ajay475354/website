@@ -29,18 +29,24 @@ const Courses = () => {
           </p>
         </div>
 
-        <div className="ccna_container">
+        <div
+          className="ccna_container"
+          onClick={() => {
+            history.push("/ccna");
+          }}
+        >
           <img
             src="https://res-console.cloudinary.com/dbmxh23dy/thumbnails/v1/image/upload/v1702292106/Y2NuYV9kb2V0b2s=/grid_landscape"
             alt="ccna_image"
             className="ccna_image"
           />
-          <h1 className="ccna_header">Cisco SD-WAN Viptela Training</h1>
+          <h1 className="ccna_header">Cisco Certified Network Associate</h1>
           <p className="ccna_description">
-            This set of on-demand courses will help grow your technical skills
-            for deploying, managing, and and SD-WAN will be the best way to
-            guide traffic across multiple transport types. Overall, enterprises
-            will have more freedom than ever before.
+            The CCNA—which stands for Cisco Certified Network Associate—is an
+            entry-level information technology (IT) certification issued by
+            networking hardware company Cisco.The CCNA is designed to validate
+            your knowledge on fundamental networking concepts often requested in
+            networking roles in IT positions.
           </p>
         </div>
       </div>

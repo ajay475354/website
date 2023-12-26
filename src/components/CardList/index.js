@@ -6,7 +6,7 @@ const CardList = (props) => {
   return (
     <div className="items_container">
       <img src={url} alt="item_image" className="item_image" />
-      <p>{text}</p>
+      <p className="card_desc_offer">{text}</p>
     </div>
   );
 };

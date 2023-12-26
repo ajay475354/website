@@ -1,7 +1,306 @@
-.bg_container_corporates {
+.corporate_bg_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.image_about_bg_container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 70vh;
+  background-image: url("../../H.png");
+  width: 100%;
+  background-size: cover;
+  margin-top: 55px;
+}
+.banner_image_head {
+  font-family: sans-serif;
+  font-size: 28px;
+  color: #ffff;
+  text-align: center;
+  width: 100%;
+}
+.banner_image_description {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #ffff;
+}
+@media screen and (max-width: 768px) {
+  .image_bg_container {
+    background-size: 100% 100%;
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+  }
+}
+/*............about.............*/
+.about_bg_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 90px;
+  background-color: rgb(218, 234, 237);
+}
+.about_header {
+  font-family: sans-serif;
+  font-size: 25px;
+  color: #000000;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.hr_line_about {
+  border: solid rgb(200, 194, 194) 1px;
+  width: 100%;
+}
+.about_description {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #1a1b1e;
+  text-align: justify;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+.about_icons_containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .about_bg_container {
+    width: 100%;
+    padding: 20px;
+  }
+}
+/*....................projects delivered.....*/
+.projects_delivered_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  background-color: #ffff;
+  padding: 90px;
+}
+.project_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.project_delivered_header {
+  font-family: sans-serif;
+  font-size: 25px;
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.hr_line_projects_delivered {
+  border: solid 1px #6a6767;
+  width: 100%;
+}
+.projects_delivered_description {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #1a1b1e;
+  line-height: 1.5;
+  text-align: justify;
+  margin-top: 5px;
+}
+.company_images_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.companys {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+.tata_image {
+  width: 150px;
+  height: 100px;
+  margin: 10px;
+}
+.orange_image {
+  height: 80px;
+  width: 90px;
+  margin: 10px;
+}
+.hcl_image {
+  height: 160px;
+  width: 140px;
+  margin: 10px;
+}
+.cgi_image {
+  height: 40px;
+  width: 80px;
+  margin: 10px;
+}
+.skillsoft_image {
+  height: 150px;
+  width: 180px;
+  margin: 10px;
+}
+.vvdn_image {
+  height: 60px;
+  width: 170px;
+  margin: 10px;
+}
+.wipro_image {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+@media screen and (max-width: 768px) {
+  .projects_delivered_container {
+    padding: 30px;
+  }
+}
+/*...................svg-to-cop...........*/
+.top_svg_corporates {
+  width: 100%;
+  margin: 0;
+}
+.cop_svg_top {
+  position: relative;
+  width: 100%;
+  bottom: -10px;
+  top: -120px;
+}
+/*...............bottom svg ...........*/
+.bottom_svg_corporates {
+  width: 100%;
+}
+.cop_bottom_svg {
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+/*..............profesional services.......*/
+.professional_services_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #edf1f8;
+  width: 100%;
+  margin-top: -125px;
+}
+.services_head {
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.services_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.services_details_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+.labservice_image {
+  height: 250px;
+  width: 400px;
+  background-color: #6a6767;
+  border-radius: 20px;
+}
+.services_note {
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #1a1b1e;
+  line-height: 1.5;
+}
+@media screen and (max-width: 768px) {
+  .services_container {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .professional_services_container {
+    padding: 20px;
+  }
+  .labservice_image {
+    width: 90%;
+  }
+  .top_svg_corporates {
+    margin-top: 30px;
+  }
+  .services_head {
+    text-align: center;
+    width: 100%;
+  }
+}
+/*............deployment services......*/
+.deployment_bg_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 90px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.deployment_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+}
+.deployment_details_container {
+  display: flex;
+  flex-direction: column;
+}
+.deployment_image {
+  width: 400px;
+  height: 250px;
+}
+
+.deployment_head {
+  font-family: sans-serif;
+  font-size: 25px;
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.deployment_description {
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #1a1b1e;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+  .deployment_container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .deployment_head {
+    text-align: center;
+  }
+  .deployment_description {
+    width: 100%;
+  }
 }

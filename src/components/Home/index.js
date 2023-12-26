@@ -1,5 +1,8 @@
 import { useHistory } from "react-router-dom";
 import "./index.css";
+import videoFile from "../../../src/video.mp4";
+
+import ReactPlayer from "react-player";
 
 import {
   FaHourglassHalf,
@@ -36,6 +39,15 @@ const Home = () => {
           >
             Learn Now
           </button>
+        </div>
+        {/*..............video player.......*/}
+        <div className="video_player_container">
+          <ReactPlayer
+            url={videoFile}
+            width="90%"
+            height="100%"
+            controls={true}
+          />
         </div>
       </div>
 
@@ -331,14 +343,17 @@ const Home = () => {
       </div>
 
       {/*.................contact feed...............*/}
-      <div className="customer_feedback_bg_container">
-        <div className="feedback_container">
-          <div className="offer_head_container">
-            <h1 className="we_offer_head">Customer Feedback</h1>
+      <div className="customer_feedback_bg_container_home">
+        <div className="feedback_container_home">
+          <h1 className="customer_feedback_head_home">Customer Feedback</h1>
+          <div className="hr_container">
+            <hr className="hr_1" />
+            <hr className="hr_2" />
           </div>
+
           <div className="details_feedback_container">
-            <h1 className="feedback_head">CGI Information Systems</h1>
-            <p className="feedback_para">
+            <h1 className="feedback_head_home">CGI Information Systems</h1>
+            <p className="feedback_para_home">
               The trainer is good. Great presentation by him and explained every
               topic very well also helped us if we faced any issue during lab
               and resolve every query. Srikanth is very good in presentation and

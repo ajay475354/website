@@ -6,19 +6,20 @@
   padding-top: 100px;
   padding-bottom: 20px;
   text-align: center;
-  background-color: rgb(193, 235, 221);
+  background-color: #aad3da;
 }
 .cisco_header_ {
   font-family: sans-serif;
-  font-size: 46px;
-  font-weight: 600;
+  font-size: 28px;
+  font-weight: bold;
   color: black;
   margin-bottom: 20px;
 }
 .cisco_image_content {
   border-radius: 5px;
   border: none;
-  width: 50%;
+  width: 40vw;
+  height: 40vh;
 }
 .cisco_hours {
   font-family: sans-serif;

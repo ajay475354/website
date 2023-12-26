@@ -1,0 +1,316 @@
+.ccna_bg_course_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 100px;
+  background-color: #aad3da;
+}
+
+/*..............ccna_head_image_hours_container........*/
+.ccna_head_image_hours_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.ccna_head {
+  font-family: sans-serif;
+  font-size: 25px;
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.ccna_hours {
+  font-family: sans-serif;
+  color: blue;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.ccna_image_content {
+  height: 40vh;
+  width: 40vw;
+  border-radius: 10px;
+  box-shadow: 0px 25px 10px -15px #111;
+  transition: 1s;
+  cursor: pointer;
+}
+.ccna_image_content:hover {
+  box-shadow: none;
+}
+@media screen and (max-width: 768px) {
+  .ccna_head_image_hours_container {
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .ccna_head {
+    font-size: 18px;
+  }
+  .ccna_hours {
+    font-size: 14px;
+  }
+  .ccna_image {
+    width: 100%;
+  }
+  .ccna_image_content {
+    width: 100%;
+  }
+}
+
+/*..................over_view_deatil..........*/
+.over_view_details_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  margin-top: -10px;
+  background-color: #ffff;
+}
+.over_view_details {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.over_view_head {
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #000000;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.over_view_description {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #1a1b1e;
+  text-align: justify;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+.over_view_image {
+  height: 30vh;
+  width: 30vw;
+  border-radius: 10px;
+  box-shadow: 0px 25px 10px -15px #111;
+  transition: 1s;
+  cursor: pointer;
+}
+.over_view_image:hover {
+  box-shadow: none;
+}
+.over_view_svg_container_top {
+  width: 100%;
+}
+.overview_svg_top {
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
+.svg_over_view_bottom_container {
+  width: 100%;
+}
+.svg_overview_bottom {
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
+@media screen and (max-width: 768px) {
+  .over_view_details_container {
+    flex-direction: column;
+  }
+  .over_view_details {
+    width: 100%;
+  }
+  .over_view_image {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+/*..................core skills..........*/
+.core_skills_container_ccna {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 70%;
+  margin-top: -40px;
+}
+.core_skills_head {
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.each_check_details_ccna {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #1a1b1e;
+  padding: 0px 0px 0px 10px;
+  line-height: 1.5;
+  text-align: justify;
+}
+@media screen and (max-width: 768px) {
+  .core_skills_container_ccna {
+    width: 100%;
+    padding: 20px;
+  }
+}
+/*..................Is CCNA, a Good Career Choice ?..........*/
+
+.career_choice_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  width: 80%;
+  margin-top: 80px;
+  padding: 20px;
+  border-radius: 22px;
+  box-shadow: 0px 25px 10px -15px #111;
+  transition: 1s;
+  cursor: pointer;
+}
+.career_choice_container:hover {
+  box-shadow: none;
+}
+.career_choice_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 50%;
+}
+.choice_image {
+  height: 40vh;
+  width: 30vw;
+  border-radius: 20px;
+}
+.choice_head {
+  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #000000;
+}
+.choice_description {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #1a1b1e;
+  text-align: justify;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+@media screen and (max-width: 768px) {
+  .career_choice_container {
+    flex-direction: column;
+    width: 90%;
+  }
+  .choice_image {
+    width: 100%;
+    height: 30vh;
+    margin-bottom: 20px;
+  }
+  .career_choice_details {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+/*....................certified...........*/
+.certified_container_ccna {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  width: 100%;
+  margin-top: 180px;
+  background-color: #ffff;
+}
+.certified_details_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 50%;
+}
+.certified_ccna_image {
+  height: 250px;
+  width: 250px;
+  opacity: 1;
+}
+.certified_head_ccna {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.certified_another_head {
+  font-family: sans-serif;
+  color: #1a1b1e;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+@media screen and (max-width: 768px) {
+  .certified_container_ccna {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .certified_details_container {
+    width: 100%;
+    justify-content: center;
+  }
+}
+/*.............good for freshers.............*/
+.good_for_freshers_container {
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.fresher_details {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fresher_head {
+  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #000000;
+}
+.freser_description {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #1a1b1e;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+@media screen and (max-width: 768px) {
+  .fresher_details {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .freser_description {
+    text-align: center;
+    line-height: 1.5;
+  }
+}
