@@ -55,7 +55,7 @@ const Footer = () => {
         </Link>
       </div>
 
-      {/*..........footer_third_container..............*/}
+      {/*..........footer_third_container............*/}
       <div className="footer_contact_container">
         <h1 className="footer_contact_header">Contact</h1>
         <div className="footer_contact_details_container">
