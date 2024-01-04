@@ -44,7 +44,7 @@ const Footer = () => {
         </div>
       </div>
 
-      {/*..........footer_second_container.............*/}
+      {/*........footer_second_container.............*/}
       <div className="footer_courses_container">
         <h1 className="footer_header_courses">Courses</h1>
         <Link to="/CiscoSdWan" className="footer_course_link">
