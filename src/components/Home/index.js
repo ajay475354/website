@@ -13,7 +13,7 @@ import {
   FaSuperpowers,
 } from "react-icons/fa";
 
-/*..................move to contact page.........*/
+/*..................move to contact page....*/
 
 const Home = () => {
   const history = useHistory();
@@ -40,7 +40,7 @@ const Home = () => {
             Learn Now
           </button>
         </div>
-        {/*..............video player.......*/}
+        {/*.........video player.......*/}
         <div className="video_player_container">
           <ReactPlayer
             url={videoFile}
