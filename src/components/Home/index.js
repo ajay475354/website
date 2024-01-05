@@ -40,7 +40,7 @@ const Home = () => {
             Learn Now
           </button>
         </div>
-        {/*.........video player.......*/}
+        {/*......video player.......*/}
         <div className="video_player_container">
           <ReactPlayer
             url={videoFile}
