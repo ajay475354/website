@@ -109,7 +109,7 @@ const About = () => {
         </div>
       </div>
 
-      {/*............feedback........*/}
+      {/*..........feedback........*/}
       <div className="customer_feedback_bg_container">
         <div className="feedback_container">
           <div className="offer_head_container">

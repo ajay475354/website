@@ -2,17 +2,16 @@ import { useHistory } from "react-router-dom";
 import { BsArrowRightShort } from "react-icons/bs";
 import "./index.css";
 
+import sdwanImage from "../../Images/sdwan.png";
+import sdwancertification from "../../Images/sdwancertification.png";
+
 const CiscoSdWan = () => {
   const history = useHistory();
   return (
     <div className="ciscosdwan_bg_container">
       <h1 className="cisco_header_">Cisco SD-WAN Viptela Training</h1>
       <p className="cisco_hours">COURSE DURATION: 65 HOURS</p>
-      <img
-        src="https://res-console.cloudinary.com/dbmxh23dy/thumbnails/v1/image/upload/v1702290322/U0RfV0FOX2RxdXFuYw==/grid_landscape"
-        alt="cisco_image"
-        className="cisco_image_content"
-      />
+      <img src={sdwanImage} alt="cisco_image" className="cisco_image_content" />
 
       <div className="cisco_overview_container">
         <h1 className="cisco_card_description_header">
@@ -86,7 +85,7 @@ const CiscoSdWan = () => {
           </p>
         </div>
         <img
-          src="https://res-console.cloudinary.com/dbmxh23dy/thumbnails/v1/image/upload/v1702356373/Q2lzY28tU0QtV0FOLTMwMC00MTVfcWZzdXRm/grid_landscape"
+          src={sdwancertification}
           alt="certication_cisco_image"
           className="certication_cisco_image"
         />

@@ -16,10 +16,15 @@
   margin-bottom: 20px;
 }
 .cisco_image_content {
-  border-radius: 5px;
-  border: none;
-  width: 40vw;
   height: 40vh;
+  width: 40vw;
+  border-radius: 10px;
+  box-shadow: 0px 25px 10px -15px #111;
+  transition: 1s;
+  cursor: pointer;
+}
+.cisco_image_content:hover {
+  box-shadow: none;
 }
 .cisco_hours {
   font-family: sans-serif;

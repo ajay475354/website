@@ -1,6 +1,9 @@
 import { useHistory } from "react-router-dom";
 import "./index.css";
 
+import sdwan from "../../Images/sdwan.png";
+import ccna from "../../Images/ccna.png";
+
 import { BsArrowRight } from "react-icons/bs";
 
 const Courses = () => {
@@ -15,11 +18,7 @@ const Courses = () => {
             history.push("/ciscosdwan");
           }}
         >
-          <img
-            src="https://res-console.cloudinary.com/dbmxh23dy/thumbnails/v1/image/upload/v1702290322/U0RfV0FOX2RxdXFuYw==/grid_landscape"
-            alt="cisco_image"
-            className="cisco_image"
-          />
+          <img src={sdwan} alt="cisco_image" className="cisco_image" />
           <h1 className="cisco_header">Cisco SD-WAN Viptela Training</h1>
           <p className="cisco_description">
             This set of on-demand courses will help grow your technical skills
@@ -35,11 +34,7 @@ const Courses = () => {
             history.push("/ccna");
           }}
         >
-          <img
-            src="https://res-console.cloudinary.com/dbmxh23dy/thumbnails/v1/image/upload/v1702292106/Y2NuYV9kb2V0b2s=/grid_landscape"
-            alt="ccna_image"
-            className="ccna_image"
-          />
+          <img src={ccna} alt="ccna_image" className="ccna_image" />
           <h1 className="ccna_header">Cisco Certified Network Associate</h1>
           <p className="ccna_description">
             The CCNA—which stands for Cisco Certified Network Associate—is an

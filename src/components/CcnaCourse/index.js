@@ -1,5 +1,7 @@
 import "./index.css";
 
+import ccnaImage from "../../Images/ccna.png";
+
 import { FaCheck } from "react-icons/fa";
 
 const CcnaCourse = () => {
@@ -9,11 +11,7 @@ const CcnaCourse = () => {
       <div className="ccna_head_image_hours_container">
         <h1 className="ccna_head">Cisco Certified Network Associate (CCNA)</h1>
         <p className="ccna_hours">COURSE DURATION: 65 HOURS</p>
-        <img
-          src="https://res-console.cloudinary.com/dbmxh23dy/thumbnails/v1/image/upload/v1702292106/Y2NuYV9kb2V0b2s=/grid_landscape"
-          alt="ccna_image"
-          className="ccna_image_content"
-        />
+        <img src={ccnaImage} alt="ccna_image" className="ccna_image_content" />
       </div>
       {/*.................svg..........................*/}
       <div className="over_view_svg_container_top">

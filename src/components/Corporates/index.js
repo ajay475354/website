@@ -15,77 +15,79 @@ import wipro from "../../Images/wipro.png";
 import labservice from "../../Images/labservices.png";
 import deployment from "../../Images/deployment.png";
 
+/*.......svgicons......*/
+import workshop from "../../Images/workshop.png";
+import training from "../../Images/training.png";
+import poclab from "../../Images/poclab.png";
+import classroom from "../../Images/classroom.png";
+import labs from "../../Images/labs.png";
+import consulting from "../../Images/consulting.png";
+import video from "../../Images/video.png";
+import time from "../../Images/time.png";
+import test from "../../Images/test.png";
+import design from "../../Images/design.png";
+import db from "../../Images/db.png";
+import implement from "../../Images/implement.png";
+
 const aboutData = [
   {
     id: 0,
-    icons:
-      "https://res-console.cloudinary.com/dbmxh23dy/thumbnails/v1/image/upload/v1703423783/d29ya3Nob3BfYWYzc3R1/grid_landscape",
+    icons: workshop,
     text: "Virtual Workshops",
   },
   {
     id: 1,
-    icons:
-      "https://res-console.cloudinary.com/dbmxh23dy/thumbnails/v1/image/upload/v1703424006/dHJhaW5pbmdfcnMyZ2R6/grid_landscape",
+    icons: training,
     text: "Training Pods for Classroom Training Use",
   },
   {
     id: 2,
-    icons:
-      "https://res-console.cloudinary.com/dbmxh23dy/thumbnails/v1/image/upload/v1703424123/bGFic19ibXpxdWY=/grid_landscape",
+    icons: poclab,
     text: "PoC Labs",
   },
   {
     id: 3,
-    icons:
-      "https://res-console.cloudinary.com/dbmxh23dy/thumbnails/v1/image/upload/v1703424167/Y2xhc3NfYWhpZXkx/grid_landscape",
+    icons: classroom,
     text: "Classroom Workshops",
   },
   {
     id: 4,
-    icons:
-      "https://res-console.cloudinary.com/dbmxh23dy/thumbnails/v1/image/upload/v1703424214/YWR2YW5jZWRfbGFic19pdHhlZ2Q=/grid_landscape",
+    icons: labs,
     text: "Advanced Learnings Labs",
   },
   {
     id: 5,
-    icons:
-      "https://res-console.cloudinary.com/dbmxh23dy/thumbnails/v1/image/upload/v1703424306/Y29uc3VsdGluZ19kbXlrdjM=/grid_landscape",
+    icons: consulting,
     text: "Consulting",
   },
   {
     id: 6,
-    icons:
-      "https://res-console.cloudinary.com/dbmxh23dy/thumbnails/v1/image/upload/v1703424450/dmlkZW9fYnpxZHow/grid_landscape",
+    icons: video,
     text: "Video On Demand",
   },
   {
     id: 7,
-    icons:
-      "https://res-console.cloudinary.com/dbmxh23dy/thumbnails/v1/image/upload/v1703424698/dGltZV9qN2Fua3E=/grid_landscape",
+    icons: time,
     text: "Foundational Learning Labs",
   },
   {
     id: 8,
-    icons:
-      "https://res-console.cloudinary.com/dbmxh23dy/thumbnails/v1/image/upload/v1703424848/dGVzdF9wZnd1eWE=/grid_landscape",
+    icons: test,
     text: "Engineering Test Beds",
   },
   {
     id: 9,
-    icons:
-      "https://res-console.cloudinary.com/dbmxh23dy/thumbnails/v1/image/upload/v1703424214/YWR2YW5jZWRfbGFic19pdHhlZ2Q=/grid_landscape",
+    icons: design,
     text: "Design/PoC/PoV Demos",
   },
   {
     id: 10,
-    icons:
-      "https://res-console.cloudinary.com/dbmxh23dy/thumbnails/v1/image/upload/v1703425010/c2FuZGJveF91aHJmdDI=/grid_landscape",
+    icons: db,
     text: "Virtual Sandboxes",
   },
   {
     id: 11,
-    icons:
-      "https://res-console.cloudinary.com/dbmxh23dy/thumbnails/v1/image/upload/v1703425112/aW1wbGltZW50X2h3emx4Yw==/grid_landscape",
+    icons: implement,
     text: "Implementation",
   },
 ];
