@@ -7,6 +7,8 @@ import Contact from "./components/Contact/index";
 import Courses from "./components/Courses/index";
 import CiscoSdWan from "./components/CiscoSdWan";
 import CcnaCourse from "./components/CcnaCourse";
+import Banner from "./components/Banner";
+
 import "./App.css";
 
 import Footer from "./components/Footer/index";
@@ -15,6 +17,8 @@ const App = () => {
   return (
     <BrowserRouter>
       <Header />
+      <Banner />
+
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
