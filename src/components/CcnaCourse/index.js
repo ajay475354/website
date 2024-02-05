@@ -195,6 +195,8 @@ const CcnaCourse = () => {
           </p>
         </div>
       </div>
+      {/*..................ccna modules.......................*/}
+      <div className="modules_container"></div>
     </div>
   );
 };

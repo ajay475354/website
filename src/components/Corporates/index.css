@@ -95,6 +95,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  width: 100%;
 }
 .project_delivered_header {
   font-family: sans-serif;
@@ -118,18 +119,20 @@
 .company_images_container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+
   justify-content: center;
   align-items: center;
   padding: 30px;
+  width: 100%;
 }
 .companys {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 50%;
+  cursor: pointer;
 }
 .tata_image {
   width: 150px;

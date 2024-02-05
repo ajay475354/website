@@ -1,6 +1,8 @@
 import "./index.css";
 import AboutIcons from "../AboutIcons";
 
+import Marquee from "react-fast-marquee";
+
 import { FaCheck } from "react-icons/fa";
 
 /*.........*/
@@ -117,6 +119,7 @@ const Corporates = () => {
           labs, proof of concept labs & demos, training & consulting on
           networking technologies.
         </p>
+
         <div className="about_icons_containers">
           {aboutData.map((each) => (
             <AboutIcons each={each} key={each.id} />
@@ -135,16 +138,18 @@ const Corporates = () => {
             PoC, Pilot and Implementation.
           </p>
           <div className="company_images_container">
-            <div className="companys">
-              <img src={tata} alt="" className="tata_image" />
-              <img src={target} alt="" className="tata_image" />
-              <img src={orange} alt="" className="orange_image" />
-              <img src={hcl} alt="" className="hcl_image" />
-              <img src={cgi} alt="" className="cgi_image" />
-              <img src={skillsoft} alt="" className="skillsoft_image" />
-              <img src={vvdn} alt="" className="vvdn_image" />
-              <img src={wipro} alt="" className="wipro_image" />
-            </div>
+            <Marquee speed={50} pauseOnHover>
+              <div className="companys">
+                <img src={tata} alt="" className="tata_image" />
+                <img src={target} alt="" className="tata_image" />
+                <img src={orange} alt="" className="orange_image" />
+                <img src={hcl} alt="" className="hcl_image" />
+                <img src={cgi} alt="" className="cgi_image" />
+                <img src={skillsoft} alt="" className="skillsoft_image" />
+                <img src={vvdn} alt="" className="vvdn_image" />
+                <img src={wipro} alt="" className="wipro_image" />
+              </div>
+            </Marquee>
           </div>
         </div>
       </div>
